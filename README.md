@@ -39,10 +39,10 @@ Replace <token> with the trading symbol or token you want to make predictions fo
 ## Usage
 To use the application, send HTTP GET requests to the desired endpoint using a tool like cURL or a web browser. For example:
 
-bash
-Copy code
-curl http://localhost:5000/getKNN25/BTCUSDT
-This will return the prediction from the KNN model with a time frequency of 25 seconds for the BTCUSDT trading pair.
+```bash
+curl http://localhost:5000/getKNN25/ETH
+```
+This will return the prediction from the KNN model with a time frequency of 25 seconds for the ETHBTC trading pair.
 
 ## Citation
 
