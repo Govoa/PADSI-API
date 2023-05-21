@@ -24,15 +24,15 @@ The application will run on http://localhost:5000.
 ## Endpoints
 The application exposes the following endpoints:
 
-* /getKNN25/<token>: Returns the prediction from the KNN model with a time frequency of 25 seconds for the specified token.
-* /getKNN15/<token>: Returns the prediction from the KNN model with a time frequency of 15 seconds for the specified token.
-* /getKNN5/<token>: Returns the prediction from the KNN model with a time frequency of 5 seconds for the specified token.
-* /getSVM25/<token>: Returns the prediction from the SVM model with a time frequency of 25 seconds for the specified token.
-* /getSVM15/<token>: Returns the prediction from the SVM model with a time frequency of 15 seconds for the specified token.
-* /getSVM5/<token>: Returns the prediction from the SVM model with a time frequency of 5 seconds for the specified token.
-* /getDNN25/<token>: Returns the prediction from the DNN model with a time frequency of 25 seconds for the specified token.
-* /getDNN15/<token>: Returns the prediction from the DNN model with a time frequency of 15 seconds for the specified token.
-* /getDNN5/<token>: Returns the prediction from the DNN model with a time frequency of 5 seconds for the specified token.
+* **/getKNN25/<token>**: Returns the prediction from the KNN model with a time frequency of 25 seconds for the specified token.
+* **/getKNN15/<token>**: Returns the prediction from the KNN model with a time frequency of 15 seconds for the specified token.
+* **/getKNN5/<token>**: Returns the prediction from the KNN model with a time frequency of 5 seconds for the specified token.
+* **/getSVM25/<token>**: Returns the prediction from the SVM model with a time frequency of 25 seconds for the specified token.
+* **/getSVM15/<token>**: Returns the prediction from the SVM model with a time frequency of 15 seconds for the specified token.
+* **/getSVM5/<token>**: Returns the prediction from the SVM model with a time frequency of 5 seconds for the specified token.
+* **/getDNN25/<token>**: Returns the prediction from the DNN model with a time frequency of 25 seconds for the specified token.
+* **/getDNN15/<token>**: Returns the prediction from the DNN model with a time frequency of 15 seconds for the specified token.
+* **/getDNN5/<token>**: Returns the prediction from the DNN model with a time frequency of 5 seconds for the specified token.
 
 Replace <token> with the trading symbol or token you want to make predictions for.
 
