@@ -1,5 +1,5 @@
 # PADSI API
-This is a Flask application that predicts trading behavior using machine learning models. It fetches trading data from Binance exchange and applies various models to make predictions.
+This is a Flask application that predicts trading behavior using machine learning models. It fetches trading data from Binance exchange and applies various models to make clasifications.
 
 ## Installation
 1. Clone the repository:
